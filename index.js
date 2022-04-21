@@ -2,7 +2,7 @@
 const fs = require('fs');
 // const utils = require('./utils');
 
-const generateMarkdown = require('./generateMarkdown.js');
+const generateMarkdown = require('./README-Generator/generateMarkdown.js');
 const inquirer = require('inquirer');
 const { type } = require('os');
 // TODO: Create an array of questions for user input
